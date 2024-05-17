@@ -1,0 +1,17 @@
+<p>Total Turn Around Time</p>
+<!-- <h3>Key Performance Indicators</h3> -->
+
+<table>
+    <tr>
+        <td>Actual</td>
+        <td>{{getTotalActualTAT()}} Hrs</td>
+    </tr>
+    <tr>
+        <td>Expected</td>
+        <td>{{getTotalExpectedTAT()}} Hrs</td>
+    </tr>
+</table>
+
+
+<br><br>
+<canvas baseChart [type]="'bar'" [data]="data"></canvas>

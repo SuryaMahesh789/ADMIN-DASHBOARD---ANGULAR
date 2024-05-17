@@ -1,0 +1,60 @@
+:host{
+    display: flex;
+    align-items:center;
+    padding: 0 1 rem;
+    justify-content:space-between;
+
+}
+
+p{
+    font-size:x-large;
+
+    height:50px;
+
+    display:inline-flex;
+    justify-content:center;
+    align-items: center;
+
+    border-radius: 2%;
+
+    padding:10px;
+    margin:10px;
+
+    color:blue;
+
+    a{
+        text-decoration:none;
+    }
+}
+
+p:hover{
+    cursor:pointer;
+    background-color:rgba(48,48,48,0.1);
+}
+
+
+span{
+    height:50px;
+    width:50px;
+
+    display:inline-flex;
+    justify-content:center;
+    align-items: center;
+
+    font-size:2rem;
+    border-radius: 50%;
+
+    padding:10px;
+    margin:10px;
+
+    &.active{
+        background-color:var(--light-black);
+    }
+
+}
+
+span:hover{
+    cursor: pointer;
+    background-color:var(--light-black);
+
+}

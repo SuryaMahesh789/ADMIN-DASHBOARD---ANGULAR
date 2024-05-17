@@ -1,0 +1,56 @@
+<h2 id="AdminPanel" class="flat" routerLink="plant1" routerLinkActive="active">Plant 1</h2>
+
+<ul>
+    @for (item of items;track items){
+        <li [routerLink]="item.link" routerLinkActive="active">
+            <span class="material-symbols-outlined icon">
+                {{item.icon}}
+                </span>
+                <span class="data">
+                    {{item.title}}                   
+                </span>
+        </li>
+    }
+</ul>
+
+
+    <!-- <ul>
+        <li>
+            <span class="material-symbols-outlined icon">
+                bar_chart
+                </span>
+                <span class="data">
+                    Plant Level KPI'S                    
+                </span>
+        </li>
+        <li>
+            <span class="material-symbols-outlined icon">
+                local_shipping
+                </span>
+                <span class="data">
+                    Logistics
+                </span>
+        </li>
+        <li>
+            <span class="material-symbols-outlined icon">
+                warehouse
+                </span>
+                <span class="data">
+                    Plant Layout                    
+                </span>
+        </li>
+        <li>
+            <span class="material-symbols-outlined icon">
+                source_environment
+                </span>
+                <span class="data">
+                    Critical Suppliers                   
+                </span>
+        </li>
+        
+    </ul> -->
+
+    
+
+    
+
